@@ -52,6 +52,7 @@ const addNotes = (title, body) => {
     const notes = loadNotes()
     const dup = notes.find((note) => note.title == title)
 
+    // debugger
 
     if (dup === undefined) {
 
